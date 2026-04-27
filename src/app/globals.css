@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-roboto);
+}
+
+@theme {
+  --text-sm: 0.8rem;
+  --text-xl: 1.2rem;
+  --text-3xl: 2.1rem;
+  --breakpoint-desktop: 72rem;
+  --breakpoint-tablet: 48rem;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ededed;
+    --foreground: #0a0a0a;
+  }
+} */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Roboto, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+  }
+}
+
+@layer components {
+  .navbar-item {
+    @apply text-white hover:text-gray-300 text-lg;
+  }
+}
