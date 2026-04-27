@@ -6,6 +6,7 @@ import ModalWindow from "../shared/ModalWindow";
 
 export default function Features() {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalContent, setModalContent] = useState("");
 
   return (
     <>
@@ -23,19 +24,25 @@ export default function Features() {
         {/* Features */}
 
         <div className="max-w-71 justify-self-center">
-          <p className="text-2xl font-bold mb-5">Luxury facilities</p>
+          <p className="text-2xl font-bold mb-5">Service Area</p>
           <p className="mb-3.5 text-justify">
             The advantage of hiring a workspace with us is that gives you
             comfortable service and all-around facilities.
           </p>
-          <div className="flex flex-row justify-start items-center gap-3.5 cursor-pointer">
+          <button
+            onClick={() => {
+              setIsModalOpen(true);
+              setModalContent("Area");
+            }}
+            className="flex flex-row justify-start items-center gap-3.5 cursor-pointer hover:opacity-80 transition-opacity"
+          >
             <p className="text-amber-600">More Info</p>
             <MoveRight
               className="text-amber-600 max-w-12"
               strokeWidth={0.5}
               size={42}
             />
-          </div>
+          </button>
         </div>
         <div className="max-w-71 desktop:justify-self-center">
           <p className="text-2xl font-bold mb-5">Affordable Price</p>
@@ -44,7 +51,10 @@ export default function Features() {
             price and still enjoy the facilities that are only here.
           </p>
           <button
-            onClick={() => setIsModalOpen(true)}
+            onClick={() => {
+              setIsModalOpen(true);
+              setModalContent("Pricing");
+            }}
             className="flex flex-row justify-start items-center gap-3.5 cursor-pointer hover:opacity-80 transition-opacity"
           >
             <p className="text-amber-600">More Info</p>
@@ -71,7 +81,11 @@ export default function Features() {
           </div>
         </div>
       </section>
-      <ModalWindow isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+      <ModalWindow
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        content={modalContent}
+      />
     </>
   );
 }

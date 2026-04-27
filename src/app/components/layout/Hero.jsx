@@ -42,7 +42,7 @@ export default function Hero() {
             Professional Sofa, Mattress, Carpet and upholstery cleaning service
           </h1>
 
-          <ul className="self-start list-disc list-inside text-lg md:text-xl text-start pl-12">
+          <ul className="self-start list-disc list-inside text-lg md:text-xl text-start sm:pl-12">
             <li className="mb-2 text-2xl">Stain & odor removal</li>
             <li className="mb-2 text-2xl">Deep extraction cleaning</li>
             <li className="mb-2 text-2xl">Professional equipment</li>
@@ -50,7 +50,7 @@ export default function Hero() {
             <li className="mb-2 text-2xl">Discounts and Low Prices</li>
           </ul>
 
-          <div className="pl-12">
+          <div className="sm:pl-12">
             <a
               href="sms:+13312537855"
               className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded"

@@ -22,7 +22,7 @@ export default function Footer() {
             id="contacts"
             className="h-full flex flex-col items-center justify-between gap-10 "
           >
-            <div className="md:pt-10 flex flex-row items-start justify-center gap-10 sm:gap-40 ">
+            <div className="md:pt-10 sm:pr-10 flex flex-row items-start justify-center gap-10 sm:gap-40 ">
               {/* Contacts */}
               <div className="min-h-fit flex flex-col gap-4">
                 <p className="mb-2 text-amber-600 text-xl">Contacts</p>
