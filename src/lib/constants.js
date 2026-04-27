@@ -1,35 +1,12 @@
 const menuItems = [
   { href: "#features", label: "Features" },
   { href: "#products", label: "Products" },
-  { href: "#experiences", label: "Experience" },
-  { href: "#materials", label: "Materials" },
+  // { href: "#experiences", label: "Experience" },
+  // { href: "#materials", label: "Materials" },
   { href: "#testimonials", label: "Testimonials" },
   { href: "#contacts", label: "Contacts" },
   { href: "#top", label: "Back to top", isBackToTop: true },
 ];
-
-// const products = [
-//   {
-//     id: 1,
-//     name: "Sakarias Armchair",
-//     image: "/image/products/product_1.jpg",
-//   },
-//   {
-//     id: 2,
-//     name: "Baltsar Chair",
-//     image: "/image/products/product_2.jpg",
-//   },
-//   {
-//     id: 3,
-//     name: "Anjay Chair",
-//     image: "/image/products/product_3.jpg",
-//   },
-//   {
-//     id: 4,
-//     name: "Nyantuy Chair",
-//     image: "/image/products/product_4.jpg",
-//   },
-// ];
 
 const testimonials = [
   {

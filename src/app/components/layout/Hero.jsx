@@ -4,10 +4,10 @@ import MobileMenu from "@/app/components/shared/MobileMenu";
 
 export default function Hero() {
   return (
-    <section className="bg-[url('/image/hero.jpg')] bg-cover bg-center min-h-screen min-w-full flex flex-col justify-between">
-      <header className="box-border w-full max-w-360 mx-auto ">
+    <section className="max-w-360 w-full md:w-218.5 desktop:w-full bg-[url('/image/hero1.jpg')] bg-cover bg-center min-h-screen min-w-full ">
+      <header className="w-full h-screen max-w-360 mx-auto flex flex-col">
         {/* Menu */}
-        <nav className="flex justify-between items-center py-5 md:py-10 px-5 md:px-20 mb-20 md:mb-10">
+        <nav className="flex justify-between items-center pt-5 md:pt-10 px-5 md:px-20 md:mb-10">
           <div className="text-white text-[1.75rem] font-bold">
             NovaFiber LLC
           </div>
@@ -18,15 +18,15 @@ export default function Hero() {
             <a href="#products" className="navbar-item">
               Products
             </a>
-            <a href="#experiences" className="navbar-item">
+            {/* <a href="#experiences" className="navbar-item">
               Experience
             </a>
             <a href="#materials" className="navbar-item">
               Materials
-            </a>
-            <a href="#testimonials" className="navbar-item">
+            </a> */}
+            {/* <a href="#testimonials" className="navbar-item">
               Testimonials
-            </a>
+            </a> */}
             <a href="#contacts" className="navbar-item">
               Contacts
             </a>
@@ -36,18 +36,31 @@ export default function Hero() {
         </nav>
 
         {/* Hero Content */}
-        <div className="grow flex items-center justify-center text-center px-12">
-          <div className="text-white">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Welcome to NovaFiber LLC
-            </h1>
-            <p className="text-xl md:text-2xl">
-              Professional upholstery and carpet cleaning service
-            </p>
+
+        <div className="px-5 md:px-20 text-white flex flex-col items-start justify-center gap-6 grow">
+          <h1 className="text-4xl md:text-7xl font-bold mb-4 text-center">
+            Professional Sofa, Mattress, Carpet and upholstery cleaning service
+          </h1>
+
+          <ul className="self-start list-disc list-inside text-lg md:text-xl text-start pl-12">
+            <li className="mb-2 text-2xl">Stain & odor removal</li>
+            <li className="mb-2 text-2xl">Deep extraction cleaning</li>
+            <li className="mb-2 text-2xl">Professional equipment</li>
+            <li className="mb-2 text-2xl">Safe for pets & kids</li>
+            <li className="mb-2 text-2xl">Discounts and Low Prices</li>
+          </ul>
+
+          <div className="pl-12">
+            <a
+              href="sms:+13312537855"
+              className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded"
+            >
+              Message Us
+            </a>
           </div>
         </div>
       </header>
-      <span className="h-20 bg-linear-to-t from-white to-transparent"></span>
+      <div className="min-h-50 min-w-full bg-linear-to-t from-white to-transparent z-10"></div>
     </section>
   );
 }
