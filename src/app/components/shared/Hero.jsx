@@ -18,12 +18,9 @@ export default function Hero() {
             <a href="#products" className="navbar-item">
               Products
             </a>
-            {/* <a href="#experiences" className="navbar-item">
-              Experience
+            <a href="#pricing" className="navbar-item">
+              Pricing
             </a>
-            <a href="#materials" className="navbar-item">
-              Materials
-            </a> */}
             {/* <a href="#testimonials" className="navbar-item">
               Testimonials
             </a> */}
@@ -39,7 +36,7 @@ export default function Hero() {
 
         <div className="px-5 md:px-20 text-white flex flex-col items-start justify-center gap-6 grow">
           <h1 className="text-4xl md:text-7xl font-bold mb-4 text-center">
-            Professional Sofa, Mattress, Carpet and upholstery cleaning service
+            Professional Deep Sofa, Mattress, Carpet & Upholstery Cleaning
           </h1>
 
           <ul className="self-start list-disc list-inside text-lg md:text-xl text-start sm:pl-12">
@@ -50,7 +47,7 @@ export default function Hero() {
             <li className="mb-2 text-2xl">Discounts and Low Prices</li>
           </ul>
 
-          <div className="sm:pl-12">
+          <div className="md:hidden sm:pl-12">
             <a
               href="sms:+13312537855"
               className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded"

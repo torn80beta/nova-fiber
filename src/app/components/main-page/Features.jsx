@@ -26,8 +26,9 @@ export default function Features() {
         <div className="max-w-71 justify-self-center">
           <p className="text-2xl font-bold mb-5">Service Area</p>
           <p className="mb-3.5 text-justify">
-            The advantage of hiring a workspace with us is that gives you
-            comfortable service and all-around facilities.
+            We serve Chicago and surrounding areas within a 50 mile radius,
+            delivering fast and reliable sofa and carpet cleaning right to your
+            doorstep. Wherever you are, we’re ready to help.
           </p>
           <button
             onClick={() => {
@@ -44,11 +45,12 @@ export default function Features() {
             />
           </button>
         </div>
-        <div className="max-w-71 desktop:justify-self-center">
-          <p className="text-2xl font-bold mb-5">Affordable Price</p>
+        <div id="pricing" className="max-w-71 desktop:justify-self-center">
+          <p className="text-2xl font-bold mb-5">Flexible Pricing</p>
           <p className="mb-3.5 text-justify">
-            You can get a workspace of the highest quality at an affordable
-            price and still enjoy the facilities that are only here.
+            Enjoy transparent, flexible pricing tailored to your needs. We
+            provide quick, accurate estimates and personalized solutions—so you
+            always know what to expect, with no surprises.
           </p>
           <button
             onClick={() => {
@@ -66,10 +68,11 @@ export default function Features() {
           </button>
         </div>
         <div className="max-w-71 justify-self-center">
-          <p className="text-2xl font-bold mb-5">Many Choices</p>
+          <p className="text-2xl font-bold mb-5">Professional Materials</p>
           <p className="mb-3.5 text-justify">
-            We provide many unique work space choices so that you can choose the
-            workspace to your liking.
+            We use advanced equipment and high-quality, hypoallergenic cleaning
+            solutions that are safe for children and pets—while delivering deep,
+            long-lasting results.
           </p>
           <div className="flex flex-row justify-start items-center gap-3.5 cursor-pointer">
             <p className="text-amber-600">More Info</p>

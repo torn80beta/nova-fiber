@@ -1,8 +1,7 @@
 const menuItems = [
   { href: "#features", label: "Features" },
   { href: "#products", label: "Products" },
-  // { href: "#experiences", label: "Experience" },
-  // { href: "#materials", label: "Materials" },
+  { href: "#pricing", label: "Pricing" },
   // { href: "#testimonials", label: "Testimonials" },
   { href: "#contacts", label: "Contacts" },
   { href: "#top", label: "Back to top", isBackToTop: true },
@@ -85,27 +84,52 @@ const testimonials = [
 const works = [
   {
     id: 1,
+    name: "White Chair",
+    before: "/image/products/photo_5_1.jpg",
+    after: "/image/products/photo_5_2.jpg",
+  },
+  {
+    id: 2,
     name: "Red Sofa",
     before: "/image/products/photo_4_1.jpg",
     after: "/image/products/photo_4_2.jpg",
   },
   {
-    id: 2,
+    id: 3,
+    name: "White Sofa",
+    before: "/image/products/photo_6_1.jpg",
+    after: "/image/products/photo_6_2.jpg",
+  },
+  {
+    id: 4,
     name: "Gray Sofa",
     before: "/image/products/photo_2_1.jpg",
     after: "/image/products/photo_2_2.jpg",
   },
   {
-    id: 3,
+    id: 5,
     name: "White Mattress",
     before: "/image/products/photo_3_1.jpg",
     after: "/image/products/photo_3_2.jpg",
   },
   {
-    id: 4,
+    id: 6,
     name: "White Sofa",
     before: "/image/products/photo_1_1.jpg",
     after: "/image/products/photo_1_2.jpg",
+  },
+
+  {
+    id: 7,
+    name: "White Mattress",
+    before: "/image/products/photo_7_1.jpg",
+    after: "/image/products/photo_7_2.jpg",
+  },
+  {
+    id: 8,
+    name: "Gray Sofa",
+    before: "/image/products/photo_8_1.jpg",
+    after: "/image/products/photo_8_2.jpg",
   },
 ];
 
