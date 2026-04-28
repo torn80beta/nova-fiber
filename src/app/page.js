@@ -7,6 +7,9 @@ export default function Home() {
     <>
       <Features />
       <Products />
+
+      {/* Testimonials section is currently not needed, can be added back later
+      if desired */}
       {/* <Testimonials /> */}
     </>
   );

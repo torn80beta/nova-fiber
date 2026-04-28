@@ -16,9 +16,6 @@ export default function Slider({ slides, CardComponent }) {
           prevEl: ".swiper-button-prev-custom",
           nextEl: ".swiper-button-next-custom",
         }}
-        // autoplay={{
-        //   pauseOnMouseEnter: true,
-        // }}
         pagination={{
           el: ".swiper-pagination",
           type: "bullets",
@@ -69,7 +66,6 @@ export default function Slider({ slides, CardComponent }) {
         </svg>
       </button>
 
-      {/* hidden md:flex // Show on medium and larger screens */}
       {/* Forward Button */}
       <button className="flex swiper-button-next-custom absolute -right-[5%]  sm:right-[1%] md:-right-[1%] desktop:right-[1%]  top-1/2 -translate-y-1/2 w-14 h-14 bg-white rounded-full items-center justify-center shadow-[0_8px_30px_rgb(0,0,0,0.1)] hover:bg-gray-50 transition-colors z-20 cursor-pointer">
         <svg

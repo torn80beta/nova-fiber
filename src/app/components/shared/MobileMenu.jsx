@@ -74,7 +74,7 @@ export default function MobileMenu() {
       </button>
 
       {/* Floating Hamburger Button - only visible on mobile when scrolling up past hero */}
-      {/* from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 */}
+
       {shouldShowFloatingButton && (
         <button
           onClick={toggleMenu}

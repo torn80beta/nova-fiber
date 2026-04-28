@@ -9,7 +9,6 @@ const ReactCompareSliderComponent = dynamic(
 
       return function DynamicCompareSlider({ item, position }) {
         return (
-          // <div className=" w-full sm:w-92.5 h-full rounded-4xl overflow-hidden z-10 shadow-sm object-cover">
           <ReactCompareSlider
             itemOne={
               <ReactCompareSliderImage src={item.before} alt={item.name} />
@@ -19,7 +18,6 @@ const ReactCompareSliderComponent = dynamic(
             }
             style={{ height: "100%", width: "100%" }}
           />
-          // </div>
         );
       };
     }),
