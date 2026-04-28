@@ -21,6 +21,9 @@ export default function Hero() {
             <a href="#pricing" className="navbar-item">
               Pricing
             </a>
+
+            {/* Testimonials section is currently not needed, can be added back later
+            if desired */}
             {/* <a href="#testimonials" className="navbar-item">
               Testimonials
             </a> */}
