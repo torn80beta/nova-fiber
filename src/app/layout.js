@@ -1,5 +1,7 @@
 import { Roboto } from "next/font/google";
 import "./globals.css";
+import Hero from "./components/shared/Hero";
+import Footer from "./components/shared/Footer";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -14,8 +16,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${roboto.variable} h-full antialiased`}>
-      <body className="">
-        <main className="">{children}</main>
+      <body className="flex flex-col items-center w-full">
+        <Hero />
+        <main className="flex flex-col items-center">{children}</main>
+        <Footer />
       </body>
     </html>
   );
