@@ -74,14 +74,20 @@ export default function Features() {
             solutions that are safe for children and pets—while delivering deep,
             long-lasting results.
           </p>
-          <div className="flex flex-row justify-start items-center gap-3.5 cursor-pointer">
+          <button
+            onClick={() => {
+              setIsModalOpen(true);
+              setModalContent("Materials");
+            }}
+            className="flex flex-row justify-start items-center gap-3.5 cursor-pointer"
+          >
             <p className="text-amber-600">More Info</p>
             <MoveRight
               className="text-amber-600 max-w-12"
               strokeWidth={0.5}
               size={42}
             />
-          </div>
+          </button>
         </div>
       </section>
       <ModalWindow

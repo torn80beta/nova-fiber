@@ -53,7 +53,7 @@ export default function Slider({ slides, CardComponent }) {
       </Swiper>
 
       {/* Back Button */}
-      <button className="flex swiper-button-prev-custom absolute left-[0%] sm:left-[1%] md:-left-[1%] desktop:left-[1%] top-1/2 -translate-y-1/2 w-14 h-14 bg-white rounded-full items-center justify-center shadow-[0_8px_30px_rgb(0,0,0,0.1)] hover:bg-gray-50 transition-colors z-20 cursor-pointer">
+      <button className="flex swiper-button-prev-custom absolute -left-[5%] sm:left-[1%] md:-left-[1%] desktop:left-[1%] top-1/2 -translate-y-1/2 w-14 h-14 bg-white rounded-full items-center justify-center shadow-[0_8px_30px_rgb(0,0,0,0.1)] hover:bg-gray-50 transition-colors z-20 cursor-pointer">
         <svg
           className="w-6 h-6 text-black"
           fill="none"
@@ -71,7 +71,7 @@ export default function Slider({ slides, CardComponent }) {
 
       {/* hidden md:flex // Show on medium and larger screens */}
       {/* Forward Button */}
-      <button className="flex swiper-button-next-custom absolute right-[0%]  sm:right-[1%] md:-right-[1%] desktop:right-[1%]  top-1/2 -translate-y-1/2 w-14 h-14 bg-white rounded-full items-center justify-center shadow-[0_8px_30px_rgb(0,0,0,0.1)] hover:bg-gray-50 transition-colors z-20 cursor-pointer">
+      <button className="flex swiper-button-next-custom absolute -right-[5%]  sm:right-[1%] md:-right-[1%] desktop:right-[1%]  top-1/2 -translate-y-1/2 w-14 h-14 bg-white rounded-full items-center justify-center shadow-[0_8px_30px_rgb(0,0,0,0.1)] hover:bg-gray-50 transition-colors z-20 cursor-pointer">
         <svg
           className="w-6 h-6 text-black"
           fill="none"

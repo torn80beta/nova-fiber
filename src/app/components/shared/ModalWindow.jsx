@@ -44,7 +44,9 @@ export default function ModalWindow({ isOpen, onClose, content }) {
           <h2 id="modal-title" className="text-2xl font-bold text-gray-800">
             {content === "Pricing"
               ? modalContent.Pricing.title
-              : modalContent.Area.title}
+              : content === "Area"
+                ? modalContent.Area.title
+                : modalContent.Materials.title}
           </h2>
           <button
             onClick={onClose}
@@ -60,7 +62,9 @@ export default function ModalWindow({ isOpen, onClose, content }) {
           <p>
             {content === "Pricing"
               ? modalContent.Pricing.description
-              : modalContent.Area.description}
+              : content === "Area"
+                ? modalContent.Area.description
+                : modalContent.Materials.description}
           </p>
           {content === "Area" && (
             <div className="mt-4">

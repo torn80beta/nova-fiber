@@ -194,6 +194,11 @@ const modalContent = {
       "Western Springs, IL",
     ],
   },
+  Materials: {
+    title: "Professional Materials",
+    description:
+      "Most cleaning only removes what you can see. We go deeper. Our process targets embedded dirt, bacteria, allergens, and stubborn odors trapped deep inside carpet and upholstery fibers — the stuff regular cleaning leaves behind. We use powerful professional equipment with high extraction capability to flush out contaminants, not just move them around. This means no residue, no sticky feeling, and faster drying. Our solutions are strong enough to break down heavy soil, pet urine, and tough stains — yet completely safe for kids and pets. Every job is customized. We analyze the fabric, contamination level, and problem areas to choose the exact method needed to get maximum results without damage. You’re not just getting a cleaning — you’re restoring your carpet and furniture back to life.",
+  },
 };
 
 export { menuItems, testimonials, works, modalContent };
