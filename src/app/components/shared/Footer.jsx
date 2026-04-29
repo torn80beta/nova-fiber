@@ -63,6 +63,8 @@ export default function Footer() {
                 <a
                   href="https://maps.app.goo.gl/38Ag59oe1xf9eJRz9"
                   className="relative flex flex-row items-center gap-2.5"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <Image
                     src={"/svg/location.svg"}
